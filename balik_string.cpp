@@ -14,7 +14,6 @@ string balikString(string str) {
 int main() {
     string nama, nim, umur, asal;
     
-    // Menggunakan getline untuk menerima input termasuk spasi
     cout << "Masukkan nama: ";
     getline(cin, nama);
     
@@ -27,7 +26,6 @@ int main() {
     cout << "Masukkan asal daerah: ";
     getline(cin, asal);
 
-    // Menampilkan hasil pembalikan string
     cout << "\nHasil pembalikan string:\n";
     cout << "Nama dibalik: " << balikString(nama) << endl;
     cout << "NIM dibalik: " << balikString(nim) << endl;
